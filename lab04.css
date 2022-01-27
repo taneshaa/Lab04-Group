@@ -1,1 +1,45 @@
+header {
+    background-color: #fffffc;
+}
+
+
+body {
+text-align: center;
+}
+
+
+header {
+font-family: "Times New Roman";
+background-color: #ffafad;
+border: 1px solid;
+border-color: #bdb2ff;
+margin-bottom: 10px;
+}
+
+
+main {
+border: 1px solid;
+border-color: #bdb2ff;
+background-color: #ffd6a5;
+margin-bottom: 10px;
+}
+
+# {
+margin-bottom: 20px;
+border: 1px solid;
+}
+
+#logo {
+background-color: #fdffb6;
+border-color:#bdb2ff;
+margin-bottom: 10px;
+border: 1px solid;
+}
+
+
+
+footer {
+border: 1px solid;
+background-color: #caffbf;
+}
 
