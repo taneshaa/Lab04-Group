@@ -15,14 +15,28 @@ function colorguessing(){
     let color = prompt ("whats my favorite color?");
     console.log (color)
     alert(color)
-    if (color == 'green'){
-        alert ("You're right");
-    } else {
+    while (color != 'green'){
         alert ("wrong answer");
-        colorguessing();}
+        color = prompt ("whats my favorite color?");
+    }
+    alert("thats right");
 }
-
 colorguessing();
+
+function displayImage(){
+    let imageNumber = prompt ("How many pictures of Raven do you want to see?");
+    console.log (imageNumber)
+    if (imageNumber == ""){
+        imageNumber = prompt ("How many pictures of Raven do you want to see?");
+    } else {
+        for (let i = 0; i < imageNumber; i++){
+            console.log(i)
+            document.getElementById("img").innerHTML += ('<img src="https://i.ibb.co/8rXCM1f/IMG-5397brester-series5.jpg" alt="IMG-5397brester-series5" border="0">');
+        }
+    } 
+}
+displayImage();
+
 
 //DECLARING MY DANG FUNCTION
 function petType () {
@@ -32,3 +46,4 @@ alert
 }
 
 // pass data onto functions?
+
